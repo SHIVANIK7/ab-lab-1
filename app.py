@@ -6,7 +6,7 @@ def score_deal(amount: float, risk: int, customer_type: str) -> float:
 
     if customer_type == "enterprise": 
 
-        multiplier = 1.2 
+        multiplier = 1.3
 
     elif customer_type == "smb": 
 
